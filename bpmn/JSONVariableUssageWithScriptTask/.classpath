@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<classpath>
+	<classpathentry including="**/*.java" kind="src" path="src/main/java"/>
+	<classpathentry excluding="**/*.java" kind="src" path="src/main/resources"/>
+	<classpathentry including="**/*.java" kind="src" output="target/test-classes" path="src/test/java"/>
+	<classpathentry excluding="**/*.java" kind="src" output="target/test-classes" path="src/test/resources"/>
+	<classpathentry kind="con" path="org.eclipse.jdt.launching.JRE_CONTAINER"/>
+	<classpathentry kind="con" path="org.eclipse.jdt.USER_LIBRARY/Activiti Designer Extensions"/>
+	<classpathentry kind="lib" path="/home/milinda/WSO2/BPS/BPMN_XML_JON_Enhancement/setup/wso2bps-3.6.0-SNAPSHOT/repository/components/plugins/activiti-all_5.19.0.wso2v2.jar"/>
+	<classpathentry kind="lib" path="/home/milinda/WSO2/BPS/BPMN_XML_JON_Enhancement/setup/wso2bps-3.6.0-SNAPSHOT/repository/components/plugins/jackson-databind_2.2.3.wso2v1.jar"/>
+	<classpathentry kind="lib" path="/home/milinda/WSO2/BPS/BPMN_XML_JON_Enhancement/setup/wso2bps-3.6.0-SNAPSHOT/repository/components/plugins/com.fasterxml.jackson.core.jackson-core_2.2.3.jar"/>
+	<classpathentry kind="output" path="target/classes"/>
+</classpath>
